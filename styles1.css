@@ -1,0 +1,41 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Card Styles */
+.card {
+  margin: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: max-content;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #f8f9fa; /* Light gray, you can change it */
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #c268b9;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #d4cccc; /* Blue, you can change it */
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #0056b3; /* Darker blue, you can change it */
+  color: #fff;
+}
